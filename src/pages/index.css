@@ -1,0 +1,229 @@
+/*
+    HomeScreen
+*/
+
+body{
+    /* background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); */
+    background-attachment:fixed;
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+
+body h1,h5 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+.compare-pokemon {
+    text-align: center; 
+}
+.input-compare{
+    display: block;
+    margin: auto;
+}
+
+.compare-pokemon{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.comparar input{
+    border-radius: 15px;
+    border: none;
+    width: 70%;
+    padding: 5px;
+}
+.comparar input:focus {
+    outline: 1px solid rgb(83, 189, 238);
+}
+.comparar button {
+    width: 20%;
+    border-radius: 24px!important;
+}
+
+.pagination{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login input{
+    border-radius: 15px;
+    border: none;
+    width: 80%;
+    padding: 5px;
+}
+.login input:focus {
+    outline: 1px solid rgb(83, 189, 238);
+}
+.login button {
+    width: 20%;
+    border-radius: 24px!important;
+}
+
+.ability{
+
+    text-align: left;
+}
+
+
+.prueba{
+    
+    border-radius: 10px;
+    background-color: rgba(245, 245, 245, 0.356);
+}
+
+.prueba .col-5{
+    border-right: 1px solid rgba(245, 245, 245, 0.411);
+}
+
+.types{
+    display: inline-flex;
+}
+
+/*SEARCHSCREEN*/
+
+form input{
+    border-radius: 15px;
+    border: none;
+    width: 80%;
+    padding: 5px;
+}
+form input:focus {
+    outline: 1px solid rgb(83, 189, 238);
+}
+form button {
+    width: 15%;
+    border-radius: 24px!important;
+}
+
+/*SPINER*/
+.loading{
+    align-items: center;
+    margin-top: 20%;
+}
+
+
+
+/*TYPES POKEMONS*/
+
+
+.normal{
+    border: 3px solid rgba(168,168,120,255);
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 5px;
+}
+.fire{
+    border: 3px solid rgba(240,128,48,255);
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 5px;
+}
+.water{
+    border: 3px solid rgba(104,144,240,255);
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 5px;
+}
+.grass{
+    border: 3px solid rgba(120,200,80,255);
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 5px;
+}
+.electric{
+    border: 3px solid rgba(248,208,48,255);
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 5px;
+}
+.ice{
+    border: 3px solid rgba(152,216,216,255);
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 5px;
+}
+.fighthing{
+    border: 3px solid rgba(192,48,40,255);
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 5px;
+}
+.poison{
+    border: 3px solid rgba(160,64,160,255);
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 5px;
+}
+.ground{
+    border: 3px solid rgba(224,192,104,255);
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 5px;
+}
+.flying{
+    border: 3px solid rgba(168,144,240,255);
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 5px;
+}
+.psychic{
+    border: 3px solid rgba(248,88,136,255); 
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 5px;
+}
+.bug{
+    border: 3px solid rgba(168,184,32,255); 
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 5px;
+}
+.rock{
+    border: 3px solid rgba(184,160,56,255); 
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 5px;
+}
+.ghost{
+    border: 3px solid rgba(112,88,152,255) ; 
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 5px;
+}
+.dark{
+    border:3px  solid rgba(112,88,152,255); 
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 5px;
+}
+.dragon{
+    border: 3px solid rgba(112,56,248,255); 
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 5px;
+}
+.steel{
+    border: 3px solid rgba(112,56,248,255); 
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 5px;
+}
+.fairy{border: 3px solid rgba(240,182,188,255); 
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 5px;
+
+}

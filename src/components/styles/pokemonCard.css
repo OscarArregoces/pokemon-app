@@ -1,0 +1,12 @@
+/*
+    PokemonCard
+*/
+
+.card-body{
+    margin: auto;
+    text-align: center;
+}
+
+th {
+    color: pink;
+}
